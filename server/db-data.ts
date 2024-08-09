@@ -1,5 +1,18 @@
 export const COURSES: any = {
 
+  1: {
+    id: 1,
+    titles: {
+      description: 'Serverless Angular with Firebase Course',
+      longDescription: 'Serveless Angular with Firestore, Firebase Storage & Hosting, Firebase Cloud Functions & AngularFire'
+    },
+    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/serverless-angular-small.png',
+    lessonsCount: 10,
+    category: 'BEGINNER',
+    seqNo: 4,
+    url: 'serverless-angular'
+  },
+
   12: {
     id: 12,
     titles: {
@@ -53,20 +66,6 @@ export const COURSES: any = {
     seqNo: 3,
     url: 'ngrx-course'
   },
-
-  1: {
-    id: 1,
-    titles: {
-      description: 'Serverless Angular with Firebase Course',
-      longDescription: 'Serveless Angular with Firestore, Firebase Storage & Hosting, Firebase Cloud Functions & AngularFire'
-    },
-    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/serverless-angular-small.png',
-    lessonsCount: 10,
-    category: 'BEGINNER',
-    seqNo: 4,
-    url: 'serverless-angular'
-  },
-
   5: {
     id: 5,
     titles: {
